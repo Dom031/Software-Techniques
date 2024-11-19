@@ -1,0 +1,8 @@
+class Counter{
+ private:
+  int count; // variables are private and methods are public.
+public:
+  void reset();
+  void increment();
+  int total() const; //constant because it wont change anything
+}

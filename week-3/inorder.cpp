@@ -1,19 +1,14 @@
 #include <iostream>
 int main(){
-  int a, b, c;
+  int num1, num2, num3;
   
   std::cout << "Enter three numbers: ";
-  std::cin >> a >> b  >> c;
+  std::cin >> num1 >> num2  >> num3;
 
-  if (a > b && b > c){
-    std::cout << "In order (descending)" << std::endl;
-  } else if ( a < b && b < c) {
-    std::cout << "In order (ascending)" << std::endl;
-  } else {
+  if ((num1 > num2 && num2 > num3) ||(num1 < num2 && num2 < num3)){
+    std::cout << "In order" << std::endl;
+  }  else {
     std::cout << "Not in order" << std::endl;
   }
-  
-
-
   return 0;
 }

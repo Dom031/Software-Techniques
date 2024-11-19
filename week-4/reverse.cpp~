@@ -1,0 +1,14 @@
+#include <iostream>
+
+
+int main() {
+
+  
+  void reverse(char s[], int size)
+
+
+
+
+    
+  return 0;
+}

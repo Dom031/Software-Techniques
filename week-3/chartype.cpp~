@@ -9,10 +9,10 @@ int main(){
 
   if (std::isdigit(ch)){
     //isdigit checks if ch is a decimal digit (number 0-9)
-    std::cout << ch << " is a digit" << std::endl;
+    std::cout << ch << " Is a digit" << << std::endk;
   } else if (std::isalpha(ch)) {
     //isalpha checks if ch is an alphabetic letter
-    switch(std::tolower(ch)) {
+    switch(std::tolower(ch)){
     case 'a':
     case 'e':
     case 'i':
@@ -28,8 +28,8 @@ int main(){
     std::cout << ch << " is a punctuation" <<std::endl;
   } else {
     std::cout << ch << " is unrecognized" << std::endl;
-  }
+
 
 
   return 0;
-}
+  }
